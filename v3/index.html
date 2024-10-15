@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="https://use.typekit.net/zpy3dbe.css">
     <style>
 
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
 	
     background-color: rgb(170, 170, 170);
@@ -222,6 +227,123 @@ font-style: normal;
     color: rgb(0, 0, 0);
 }
 
+@media only screen and (max-width: 600px) {
+    .body-container{
+        grid-template-columns: 1fr;
+        
+    } 
+    .split-column {
+        grid-template-columns: 1fr;
+    }
+    .container {
+        grid-template-columns: 1fr;
+        column-gap: 200px;
+    }
+    .container2  {
+        font-size: 40px;
+        
+    }
+
+    .container2 img {
+        width: 40px; 
+        height: auto;
+    }
+
+    
+}
+
+@media only screen and (min-width: 600px) {
+    .body-container{
+        grid-template-columns: 1fr;
+        
+    } 
+    .split-column {
+        grid-template-columns: 1fr;
+    }
+    .container {
+        grid-template-columns: 1fr;
+        column-gap: 400px;
+    }
+    .container2  {
+        font-size: 60px;
+    }
+
+    .container2 img {
+        width: 50px; 
+        height: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .body-container{
+        grid-template-columns: 1fr ;
+    } 
+    .split-column {
+        grid-template-columns: 1fr;
+    }
+    .container {
+        grid-template-columns: 1fr;
+        column-gap: 700px;
+    }
+    .container2  {
+        font-size: 65px;
+    }
+
+    .container2 img {
+        width: 60px; 
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .body-container{
+        grid-template-columns: 1fr 1fr;
+    } 
+    .split-column {
+        grid-template-columns: 1fr 1fr;
+    }
+    .container {
+        grid-template-columns: 1fr;
+        column-gap: 1000px;
+    }
+    .container2  {
+        font-size: 70px;
+    }
+
+    .container2 img {
+        width: 65px; 
+        height: auto;
+    }
+    
+   
+}
+
+@media only screen and (min-width: 1200px) {
+    .body-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    } 
+    .split-column {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .container {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1300px;
+    }
+
+    .container2  {
+        font-size: 75px;
+    }
+
+    .container2 img {
+        width: 70px; 
+        height: auto;
+    }
+
+
+}
+
+
 
     </style>
 </head>
@@ -231,9 +353,7 @@ font-style: normal;
     <div class="container1">Link to Original Article</div>
     <div class="container2"><img src="https://i.pinimg.com/originals/ca/97/bd/ca97bde328433c2497b154afdee5f8d7.gif"
         alt="heart" width="70" height="70"><img src="https://i.pinimg.com/originals/ca/97/bd/ca97bde328433c2497b154afdee5f8d7.gif"
-        alt="heart" width="70" height="70"><img src="https://i.pinimg.com/originals/ca/97/bd/ca97bde328433c2497b154afdee5f8d7.gif"
         alt="heart" width="70" height="70">HOW THE INTERNET USES NOSTALGIA<img src="https://i.pinimg.com/originals/ca/97/bd/ca97bde328433c2497b154afdee5f8d7.gif"
-        alt="heart" width="70" height="70"><img src="https://i.pinimg.com/originals/ca/97/bd/ca97bde328433c2497b154afdee5f8d7.gif"
         alt="heart" width="70" height="70"><img src="https://i.pinimg.com/originals/ca/97/bd/ca97bde328433c2497b154afdee5f8d7.gif"
         alt="heart" width="70" height="70"></div>
      <div class="container3"><em>Long-lost memories pop up in music recommendations, personality quizzes, and ads. Why?</em></div>
